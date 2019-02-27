@@ -1,4 +1,3 @@
-package main;
 public class SinglyLinkedList
 {
     private class Node
@@ -95,7 +94,7 @@ public class SinglyLinkedList
 
     public static void main(String[] args)
     {
-        Singlelinkedlist linkedlist=new Singlelinkedlist();
+        SinglyLinkedList linkedlist=new SinglyLinkedList();
         System.out.println(linkedlist);
         for (int i = 0; i <5 ; i++)
         {
